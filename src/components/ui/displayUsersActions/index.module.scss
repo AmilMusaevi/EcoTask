@@ -1,0 +1,31 @@
+.actions_icon {
+  width: 50px;
+
+  gap: 0.5rem;
+  padding: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &_item {
+    width: 100%;
+
+    border-radius: 3px;
+    padding: 0.3rem;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background: gray;
+    }
+    & > svg {
+      color: rgb(195, 192, 192);
+    }
+  }
+  &_button {
+    cursor: pointer;
+  }
+}
